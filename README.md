@@ -4,8 +4,9 @@
 This program is free software; see [LICENSE][3] for more details.
 
 #### USAGE 
-`make`
-`./run.py`
+
+    make
+    ./run.py
 
 [1]: http://www.python.org/ 
 [2]: http://cython.org/
