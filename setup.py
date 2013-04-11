@@ -4,7 +4,7 @@ from distutils.extension import Extension
 from Cython.Distutils import build_ext
 
 sourcefiles = ['interface.pyx']
-ext_modules = [Extension("testlib", sourcefiles, language="c++", extra_compile_args=["-O3","-march=native"])]
+ext_modules = [Extension("testlib", sourcefiles, language="c++", extra_compile_args=["-O3","-Wall"])]
 
 setup(
   name = 'testlib app',
